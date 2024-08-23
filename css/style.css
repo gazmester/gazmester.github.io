@@ -1,0 +1,97 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	overflow-x: clip;
+}
+
+@font-face {
+    font-family: "stencilla";
+    src: url("../ttf/stencilla.ttf");
+}
+
+.header
+{
+	--button-margin-vert: 10px; 
+	--button-text-padding-vert: 18px; 
+	--button-text-padding-hor: 9.25%; 
+	
+	background-color: #D9D9D9;
+}
+
+.header a
+{
+	text-decoration: none;
+	color: #000;
+}
+
+.header table
+{
+	table-layout: auto;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.header td
+{
+	border:10px solid #481620;
+	background-color:#481620;
+}
+
+#hlogo
+{
+	width: 5%;
+}
+
+#hlogo img
+{
+	width: 100%;
+}
+
+#websitename
+{
+	width: 45%;
+}
+
+#navtd
+{
+  width: 50%;
+}
+
+#websitename a span
+{
+	font-size: 4em;
+	font-family: "stencilla";
+	color: #FFFFFF;
+	margin-left:1%;
+	margin-right: 10px;
+	display: inline-block;
+	width: 100%;
+}
+
+nav
+{
+	width: 100%;
+}
+
+nav ul
+{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	padding: 0;
+	margin-top: 0;
+}
+nav ul li
+{
+	margin-inline: 1%;
+	margin-top: var(--button-margin-vert);
+	margin-bottom: var(--button-margin-vert);
+	background-color: #D00000;
+	color: #FFFFFF;
+	padding-inline: var(--button-text-padding-hor);
+	padding-bottom: var(--button-text-padding-vert);
+	padding-top: var(--button-text-padding-vert);
+	font-family: "stencilla";
+	font-size: 1.5em;
+}
